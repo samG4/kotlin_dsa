@@ -1,0 +1,53 @@
+#############################
+# OS-Specific Ignored Files #
+#############################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+#######################
+# IntelliJ / Gradle   #
+#######################
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Gradle cache & build folders
+.gradle/
+build/
+
+# Logs
+*.log
+
+###############################
+# Kotlin/Java Output Folders #
+###############################
+out/
+
+###################################
+# Gradle Wrapper Files to KEEP    #
+###################################
+!gradlew
+!gradlew.bat
+!gradle/
+!settings.gradle
+!settings.gradle.kts
+!build.gradle
+!build.gradle.kts
+
+###################################
+# Example: Keep Source and Tests  #
+###################################
+# You generally want to keep these:
+!src/
+!test/
+
+# If you have other folders you want to keep,
+# you can similarly "unignore" them by prefixing
+# with an exclamation mark, e.g.:
+# !scripts/
