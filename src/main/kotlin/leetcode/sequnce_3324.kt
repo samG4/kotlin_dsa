@@ -1,14 +1,14 @@
 package leetcode
 
-fun main() {
-    val solution = Solution()
-    val listOfTarget = listOf<String>("ab")
-    val result = listOfTarget.map {
-        solution.stringSequence(it)
-    }.toList()
-    println(listOfTarget)
-    println(result)
-}
+//fun main() {
+//    val solution = Solution()
+//    val listOfTarget = listOf<String>("ab")
+//    val result = listOfTarget.map {
+//        solution.stringSequence(it)
+//    }.toList()
+//    println(listOfTarget)
+//    println(result)
+//}
 
 class Solution {
     fun stringSequence(target: String): List<String> {

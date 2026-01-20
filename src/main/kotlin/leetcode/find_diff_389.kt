@@ -22,7 +22,7 @@ class FindDiff {
 
 }
 
-fun main() {
-    val test = FindDiff()
-    print(test.findTheDifference2("", "a"))
-}
+//fun main() {
+//    val test = FindDiff()
+//    print(test.findTheDifference2("", "a"))
+//}
